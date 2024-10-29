@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next.js 15 Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel-track-container">
+        <ul class="carousel-track">
+          <li class="carousel-slide active">
+            <h2>Next.js 15 Launch</h2>
+            <p>
+              Discover the latest features, performance upgrades, and what’s new
+              in Next.js 15! Next.js 15 introduces a host of exciting new
+              features and performance upgrades that enhance web development
+              capabilities. 
+            </p>
+          </li>
+          <li class="carousel-slide">
+            <h2>Advantages</h2>
+            <ul>
+              <li>🚀 Improved Performance</li>
+              <li>🛠️ Simplified Server Components</li>
+              <li>💼 Enhanced Developer Experience</li>
+              <li>⚡ Faster Builds</li>
+              <h4>
+             Here are some key advantages of using Next.js for web development:
+                
+                Server-Side Rendering (SSR): <br>
+                Next.js allows for server-side rendering, which can improve SEO and performance by delivering fully rendered HTML to the client​.<br>
+                 Static Site Generation (SSG):<br>
+                 With SSG, developers can pre-render pages at build time, leading to faster load times and better performance, especially for content-heavy sites​.<br>
+                 File-Based Routing:<br>
+                  Next.js offers an intuitive file-based routing system, making it easier to create and manage routes without the need for complex configuration.<br>
+                 API Routes:<br>
+                 The framework allows for easy creation of API endpoints within the same project, simplifying the development of full-stack applications.<br>
+                Automatic Code Splitting: <br>
+                Next.js automatically splits code to optimize loading times, ensuring that only the necessary code for the current page is sent to the client​.<br>
+                Performance Optimization:<br>
+                 Features like image optimization, fast refresh, and incremental static regeneration enhance the performance and user experience of applications​.<br>
+                Built-In CSS and Sass Support: Next.js has built-in support for CSS and Sass, allowing developers to style their applications easily.<br>
+                Community and Ecosystem:<br>
+                 Next.js is backed by a strong community and a rich ecosystem, providing numerous plugins and tools that can accelerate development​.<br>
+                 TypeScript Support:<br> 
+                Next.js has first-class TypeScript support, enabling developers to build type-safe applications more effectively​.<br>
+                Deployment Flexibility:<br>
+                 Next.js applications can be deployed on various platforms, including Vercel, Netlify, and traditional hosting providers, offering great flexibility for developer.
+             
+</h4>
+            </ul>
+          </li>
+          <li class="carousel-slide">
+            <h2>Disadvantages</h2>
+            <ul>
+              <li>🔄 Compatibility Issues</li>
+              <li>📈 Steeper Learning Curve</li>
+              <h4>Learning Curve: <br>
+                New users may find it challenging to grasp server-side rendering and static site generation concepts.<br>
+                
+                Overhead for Small Projects:<br>
+                 For simple applications, Next.js may add unnecessary complexity compared to client-side frameworks​.<br>
+               
+                
+                Long Build Times:<br>
+                 As the number of pages increases, build times can become lengthy, especially with static site generation​.<br>
+               
+              
+                
+                Dependency on Vercel:<br>
+                 While Next.js is versatile, many advanced features are best utilized with Vercel, which may lead to vendor lock-in​.<br>
+                
+                Experimental Features:<br>
+                 Some new features are experimental, which could lead to instability in production applications.​<br>
+                
+                
+                CORS Limitations:<br> 
+                Using API routes may involve complications related to Cross-Origin Resource Sharing, affecting integration with external services​.<br>
+                
+                
+                State Management Complexity: <br>
+                Managing state across server-side and client-side can be complicated, potentially requiring additional libraries.​</h4>
+            </ul>
+          </li>
+          <li class="carousel-slide">
+            <h2>Get Started with Next.js 15</h2>
+            <p>
+              Explore the documentation and start building with enhanced tools
+              and components!
+            </p>
+            <a
+              href="https://nextjs.org/docs/canary"
+              class="cta-button"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn More</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="carousel-nav">
+        <button class="carousel-btn prev" aria-label="Previous slide">
+          ⬅️
+        </button>
+        <button class="carousel-btn next" aria-label="Next slide">➡️</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
